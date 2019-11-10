@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  go_server:
+    container_name: "go_server"
+    build: "."
+    ports:
+      - "80:8001"
